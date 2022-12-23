@@ -76,6 +76,7 @@ html,body{
     /* background-color: black; */
 }
 
+
 .content button{
     width: 200px;
     height: 50px;
@@ -97,7 +98,7 @@ html,body{
     background-color: rgba(41, 179, 218, 0.283);
 }
 
-@media(max-width: 500px){
+@media(max-width: 355px){
 
     h1{
         font-size: 14vw;
@@ -121,21 +122,30 @@ html,body{
     margin-left: 70%;
     /* background-color: black; */
 }
+.content {
+    position: absolute;
+    z-index: 999;
+    width: 60vw;
+    height: 100vh;
+    top: 0;
+    /* background-color: aqua; */
+    color: #fff;
+}
 .content button{
-    width: 20vw;
-    height: 8vw;
-    margin-top: 100vw;
-    margin-left: 10px;
+    width: 25vw;
+    height: 10vw;
+    margin-top: 140vw;
+    margin-left: 220px;
     border-radius: 10px;
     font-family: gilroy;
     text-transform: capitalize;
     background-color: rgba(41, 179, 218, 0.283);
 }
 #two button{
-    width: 20vw;
-    height: 8vw;
-    margin-top: 100vw;
-    margin-left: 110%;
+    width: 25vw;
+    height: 10vw;
+    margin-top: 140vw;
+    margin-left: 5vw;
     border-radius: 10px;
     font-family: gilroy;
     text-transform: capitalize;
