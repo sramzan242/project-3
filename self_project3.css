@@ -35,23 +35,24 @@ html,body{
     top: 0;
     color: #fff;
     font-family: gilroy;
-    font-size: 100px;
+    font-size: 7vw;
 }
  #two h1{
+     position: absolute;
     width: 800px;
-    position: absolute;
-    left: 87%;
+    height: 50px;
+    left: 86%;
     z-index: 99;
     top: 0;
     color: #fff;
     font-family: gilroy;
-    font-size: 100px;
+    font-size: 7vw;
 }
 
  .content {
     position: absolute;
     z-index: 999;
-    width: 60%;
+    width: 60vw;
     height: 100vh;
     top: 0;
     /* background-color: aqua; */
@@ -59,26 +60,26 @@ html,body{
 }
 
 .content p{
-    width: 500px;
-    height: 250px;
+    width: 50vw;
+    height: 25vw;
     font-family: angel;
     margin-top: 30%;
     margin-left: 10px;
     /* background-color: black; */
 }
 #two p{
-    width: 500px;
-    height: 250px;
+    width: 50vw;
+    height: 25vw;
     font-family: angel;
     margin-top: 30%;
-    margin-left: 87%;
+    margin-left: 80%;
     /* background-color: black; */
 }
 
 .content button{
     width: 200px;
     height: 50px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 10px;
     border-radius: 10px;
     font-family: gilroy;
@@ -94,4 +95,50 @@ html,body{
     font-family: gilroy;
     text-transform: capitalize;
     background-color: rgba(41, 179, 218, 0.283);
+}
+
+@media(max-width: 500px){
+
+    h1{
+        font-size: 14vw;
+}
+#two h1{
+    white-space: wrap;
+    width: 80vw;
+    position: absolute;
+    left: 26vw;
+    z-index: 99;
+    top: 0;
+    color: #fff;
+    font-family: gilroy;
+    font-size: 7vw;
+}
+#two p{
+    width: 50vw;
+    height: 25vw;
+    font-family: angel;
+    margin-top: 30%;
+    margin-left: 70%;
+    /* background-color: black; */
+}
+.content button{
+    width: 20vw;
+    height: 8vw;
+    margin-top: 100vw;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-family: gilroy;
+    text-transform: capitalize;
+    background-color: rgba(41, 179, 218, 0.283);
+}
+#two button{
+    width: 20vw;
+    height: 8vw;
+    margin-top: 100vw;
+    margin-left: 110%;
+    border-radius: 10px;
+    font-family: gilroy;
+    text-transform: capitalize;
+    background-color: rgba(41, 179, 218, 0.283);
+}
 }
